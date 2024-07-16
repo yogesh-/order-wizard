@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "4816968d23cab0912e1b46bd2ae780a2"
+name = "order-wizard"
+handle = "order-wizard"
+application_url = "https://divx-responded-replaced-stretch.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "order-alpha-ayush-2.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://divx-responded-replaced-stretch.trycloudflare.com/auth/callback",
+  "https://divx-responded-replaced-stretch.trycloudflare.com/auth/shopify/callback",
+  "https://divx-responded-replaced-stretch.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks"
+
+[pos]
+embedded = false
