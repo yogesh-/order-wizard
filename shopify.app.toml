@@ -3,7 +3,7 @@
 client_id = "4816968d23cab0912e1b46bd2ae780a2"
 name = "order-wizard"
 handle = "order-wizard"
-application_url = "https://more-detect-sized-specifics.trycloudflare.com"
+application_url = "https://belle-cubic-casey-bread.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://more-detect-sized-specifics.trycloudflare.com/auth/callback",
-  "https://more-detect-sized-specifics.trycloudflare.com/auth/shopify/callback",
-  "https://more-detect-sized-specifics.trycloudflare.com/api/auth/callback"
+  "https://belle-cubic-casey-bread.trycloudflare.com/auth/callback",
+  "https://belle-cubic-casey-bread.trycloudflare.com/auth/shopify/callback",
+  "https://belle-cubic-casey-bread.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
