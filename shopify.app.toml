@@ -3,7 +3,7 @@
 client_id = "4816968d23cab0912e1b46bd2ae780a2"
 name = "order-wizard"
 handle = "order-wizard"
-application_url = "https://divx-responded-replaced-stretch.trycloudflare.com"
+application_url = "https://more-detect-sized-specifics.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://divx-responded-replaced-stretch.trycloudflare.com/auth/callback",
-  "https://divx-responded-replaced-stretch.trycloudflare.com/auth/shopify/callback",
-  "https://divx-responded-replaced-stretch.trycloudflare.com/api/auth/callback"
+  "https://more-detect-sized-specifics.trycloudflare.com/auth/callback",
+  "https://more-detect-sized-specifics.trycloudflare.com/auth/shopify/callback",
+  "https://more-detect-sized-specifics.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

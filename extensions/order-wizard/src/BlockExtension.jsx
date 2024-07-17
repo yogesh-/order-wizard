@@ -35,12 +35,13 @@ function App() {
             </Checkbox>
           </InlineStack>
           <BlockStack>
-            <InlineStack>
+            <InlineStack inlineGap blockAlignment="center">
               {" "}
               <Text>Customer can Edit:</Text>
-              <Badge tone="default">
-                Address | Contact | Invoice | Cancellation
-              </Badge>
+              <Badge tone="default">Address</Badge>
+              <Badge tone="default">Contact</Badge>
+              <Badge tone="default">Invoice</Badge>
+              <Badge tone="default">Cancellation</Badge>
             </InlineStack>
             <InlineStack>
               <Icon tone="warning" name="AlertMinor" />
